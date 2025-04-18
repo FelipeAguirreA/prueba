@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coningenio - Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="imagen/con-ingenio-solo-blanco.png" type="image/png">
+</head>
+<body>
+  <header class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <img src="imagen/logo-grande-letras-blanco.png" alt="Coningenio Logo" id="logo" class="img-fluid mb-3">
+      <p class="lead">Consultoría y Desarrollo de Software</p>
+      <nav class="nav justify-content-center">
+        <a class="nav-link text-warning active" href="index.html">Inicio</a>
+        <a class="nav-link text-white" href="servicios.html">Servicios</a>
+        <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+      </nav>
+
+      <button id="theme-toggle" class="btn btn-light mt-3">
+        <span id="theme-icon" class="bi bi-moon"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <section id="home" class="active">
+      <h2 class="text-center mb-4">Bienvenidos a Coningenio</h2>
+      <div class="text-center">
+        <p>En Coningenio.cl, nos especializamos en transformar ideas en realidades digitales. Nuestro equipo combina experiencia en consultoría y desarrollo de software para crear soluciones innovadoras, prácticas y efectivas. Nos apasiona ayudarte a alcanzar tus metas tecnológicas</p>
+        <ul class="list-unstyled">
+          <li>Ofrecemos soluciones digitales diseñadas para transformar tus ideas en realidad y maximizar el potencial de tu empresa. Nuestros servicios incluyen: </li>
+          <ul class="text-start mx-auto" style="max-width: 600px; list-style-type: disc;">
+            <li>Consultoría Digital</li>
+            <li>Soluciones Multiexperiencia</li>
+            <li>Evolución de Ecosistemas</li>
+            <li>Soluciones Low-Code</li>
+          </ul>
+        </ul>
+        <p class="text-primary fw-bold">¿Listo para llevar tu empresa al futuro digital? Descubre todo lo que Coningenio.cl puede hacer por ti</p>
+        <button class="btn btn-primary mt-3 me-2" onclick="window.location.href='servicios.html'">Conoce nuestros Servicios</button>
+        <button class="btn btn-secondary mt-3" onclick="window.location.href='nosotros.html'">Conoce más sobre Nosotros</button>
+      </div>
+    </section>
+    <img src="imagen/con-ingenio-solo-colores.png" alt="Coningenio Logo Color" class="img-fluid me-4" style="max-width: 150px;">
+  </main>
+
+  <footer class="py-3 bg-dark text-white text-center">
+    <p>&copy; 2025 Coningenio. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/theme-toggle.js"></script>
+</body>
+</html>
